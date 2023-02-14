@@ -1,0 +1,163 @@
+body
+{
+    font-family: 'Noto Sans NKo', sans-serif;
+}
+#title
+{
+  background-color: #ff4261;
+  color: #ffffff;
+  padding : 3% 15%;
+  padding-bottom: 16%;
+}
+.navbar
+{
+    padding-bottom: 5%;
+}
+.navbar-nav
+{
+    font-family: 'Noto Sans NKo', sans-serif;
+    color: #ffffff;
+    margin-left: 60%;
+}
+.navbar-brand
+{
+  font-size: 4rem;
+  font-family: 'PT Sans', sans-serif;
+}
+#prop
+{
+    font-family: 'Noto Sans NKo', sans-serif;
+    font-weight: 600;
+    padding-right: 24%;
+}
+h1
+{
+    font-weight: 900;
+    font-size: 4rem;
+    padding-bottom: 5%;
+}
+.btn
+{
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+.main_dog
+{
+    width:25%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+@media (max-width:1192px) 
+{
+    .main_dog
+    {
+        width: 50%;
+        position: static;
+        transform: rotate(0);
+        padding-top: 4%;
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+#feature
+{
+    padding: 10%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.icon
+{
+   color: #ee8e56;
+   padding-bottom: 2%;
+}
+.feat_para
+{
+    text-align: center;
+    
+}
+.feat_head
+{
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+.size
+{
+    font-size: 1.2rem;
+}
+.test_image
+{
+    border-radius: 100%;
+    width:13%;
+    margin-top: 3%;
+}
+#testimonials
+{
+   background-color: #ee8e56;
+   text-align: center;
+}
+.testimonial-text
+{
+    font-weight:bolder;
+}
+.carousel-item
+{
+    padding: 7% 16%;
+}
+.media
+{
+    padding: 3% 8%;
+}
+.media_img
+{
+    width:70%;
+    padding-bottom: 5%;
+}
+.price_head
+{
+    padding-top: 7%;
+}
+.pricing_row
+{
+    padding: 6%;
+}
+.pricing-column
+{
+    text-align: center;
+}
+.price-text
+{
+    font-weight: bolder;
+}
+#last
+{
+    padding: 5%;
+    background-color: #ff4261;
+    color: #ffffff;
+    text-align: center;
+}
+.last_head
+{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#foot
+{
+    padding: 4%;
+    text-align: center;
+}
+.symbol
+{
+    padding: 2%;
+}
+.last_para
+{
+    padding-top: 2%;
+}
+.container-fluid.feat_head
+{
+    color: aqua;
+}
